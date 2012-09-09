@@ -1,13 +1,13 @@
-package enterTheVoid;
+package enterTheVoid.common;
 
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
 
-public class VoidItemVoidstuff extends Item {
+public class VoidItemRealstuff extends Item {
 
-	public VoidItemVoidstuff(int id) {
+	public VoidItemRealstuff(int id) {
 		super(id);
-        maxStackSize = 1;
+        maxStackSize = 12;
         this.setTabToDisplayOn(CreativeTabs.tabMaterials);
 	}
 	

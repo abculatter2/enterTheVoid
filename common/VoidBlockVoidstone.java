@@ -1,4 +1,4 @@
-package enterTheVoid;
+package enterTheVoid.common;
 
 import java.util.List;
 import java.util.Random;

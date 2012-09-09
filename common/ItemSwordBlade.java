@@ -1,4 +1,4 @@
-package enterTheVoid;
+package enterTheVoid.common;
 
 import net.minecraft.src.EnumToolMaterial;
 import net.minecraft.src.ItemSword;
