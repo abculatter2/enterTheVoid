@@ -2,24 +2,21 @@ package enterTheVoid.common;
 
 import java.util.logging.Level;
 
-import odin.mods.AdvancedEnchanting.common.AdvEnchantment;
-import net.minecraft.src.Block;
 import net.minecraft.src.EnumToolMaterial;
+import net.minecraft.src.Item;
 import net.minecraftforge.common.Configuration;
 import net.minecraftforge.common.EnumHelper;
-import net.minecraft.src.Item;
+
+
 import cpw.mods.fml.common.FMLLog;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
-import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.Mod.PreInit;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
-import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
-import enterTheVoid.common.CommonProxyEnterTheVoid;
 
 @Mod(modid = "EnterTheVoid", name = "Enter: The Void", version = "0.0")
 @NetworkMod(clientSideRequired = true, serverSideRequired  = false)

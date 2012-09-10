@@ -1,7 +1,7 @@
 package enterTheVoid.client;
 
-import enterTheVoid.common.CommonProxyEnterTheVoid;
 import net.minecraftforge.client.MinecraftForgeClient;
+import enterTheVoid.common.CommonProxyEnterTheVoid;
 
 public class ClientEnterTheVoid extends CommonProxyEnterTheVoid {
 
