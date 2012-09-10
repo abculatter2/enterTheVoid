@@ -29,7 +29,7 @@ public class VoidBlockVoidstone extends Block {
 	
 	public String getTextureFile()
 	{
-		return "/enterTheVoid/VoidBlockTextures.png";
+		return "/resources/VoidBlockTextures.png";
 	}
 	
 	public int getBlockTextureFromSideAndMetadata(int par1, int par2) 

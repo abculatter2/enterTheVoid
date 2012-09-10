@@ -13,6 +13,6 @@ public class VoidItemRealstuff extends Item {
 	
 	public String getTextureFile()
 	{
-		return "/enterTheVoid/VoidItemTextures.png";
+		return "/resources/VoidItemTextures.png";
 	}
 }

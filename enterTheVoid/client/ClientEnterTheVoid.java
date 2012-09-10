@@ -1,14 +1,14 @@
 package enterTheVoid.client;
 
-import enterTheVoid.common.CommonProxyEnterTheVoid;
 import net.minecraftforge.client.MinecraftForgeClient;
+import enterTheVoid.common.CommonProxyEnterTheVoid;
 
 public class ClientEnterTheVoid extends CommonProxyEnterTheVoid {
 
 	@Override
 	public void registerRenderThings()
 	{
-		MinecraftForgeClient.preloadTexture("/enterTheVoid/VoidItemTextures.png");
-		MinecraftForgeClient.preloadTexture("/enterTheVoid/VoidBlockTextures.png");
+		MinecraftForgeClient.preloadTexture("/resources/VoidItemTextures.png");
+		MinecraftForgeClient.preloadTexture("/resources/VoidBlockTextures.png");
 	}
 }
