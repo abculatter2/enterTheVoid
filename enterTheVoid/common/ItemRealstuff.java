@@ -3,9 +3,9 @@ package enterTheVoid.common;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
 
-public class VoidItemRealstuff extends Item {
+public class ItemRealstuff extends Item {
 
-	public VoidItemRealstuff(int id) {
+	public ItemRealstuff(int id) {
 		super(id);
         maxStackSize = 12;
         this.setTabToDisplayOn(CreativeTabs.tabMaterials);

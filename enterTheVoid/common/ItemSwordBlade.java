@@ -12,6 +12,6 @@ public class ItemSwordBlade extends ItemSword
 	
 	public String getTextureFile()
     {
-            return "/TutTextures.png";
+            return "/resources/VoidItemTextures.png";
     }
 }
